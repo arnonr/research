@@ -8,9 +8,9 @@ if(location.port  == '8000'){
     urlNew = 'http://localhost:8000/api/';
 }else{
     if(location.hostname == 'localhost'){
-        urlNew = 'http://localhost/research/api/';
+        urlNew = 'http://localhost/idemt/research/api/';
     }else{
-        urlNew = 'http://sci.kmutnb.ac.th/research/api/';
+        urlNew = 'http://sci.kmutnb.ac.th/idemt/research/api/';
     }
 }
 

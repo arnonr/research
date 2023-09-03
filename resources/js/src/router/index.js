@@ -22,7 +22,7 @@ Vue.use(VueRouter);
 
 const router = new VueRouter({
     mode: "history",
-    base: location.port == '8000' ? process.env.BASE_URL : '/research',
+    base: location.port == '8000' ? process.env.BASE_URL : '/idemt/research',
     scrollBehavior() {
         return { x: 0, y: 0 };
     },

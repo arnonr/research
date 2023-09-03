@@ -69,11 +69,11 @@ mix.copy('resources/css/loader.css', 'public/css')
    mix.version()
    mix.webpackConfig({
      output: {
-       publicPath: '/research/',
+       publicPath: '/idemt/research/',
        chunkFilename: 'js/chunks/[name].[chunkhash].js'
      }
    })
-   mix.setResourceRoot('/research/')
+   mix.setResourceRoot('/idemt/research/')
  }
 
 
