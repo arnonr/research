@@ -21,6 +21,7 @@ supervisord.pid
 .DS_Store
 node_modules
 /dist
+/data
 
 # local env files
 .env.local
